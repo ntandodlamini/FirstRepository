@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">LogicalOperator</string>
+    <string name="banned_from_store">Banned from store</string>
+    <string name="check_discount_eligibility">Check discount eligibility</string>
+    <string name="it_student">IT STudent</string>
+    <string name="staff_member">Staff member</string>
+    <string name="enter_your_agw">Enter your agw</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="results_will_appear_here">Results will appear here</string>
 </resources>
