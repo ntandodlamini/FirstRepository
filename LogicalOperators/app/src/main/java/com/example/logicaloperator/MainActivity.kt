@@ -30,6 +30,18 @@ private lateinit var tvResult: EditText
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
+
+        // Link the variables to the UI components using their 10's
+        editName = findViewById(R.id.editName)
+        editAge = findViewById(R.id.editAge)
+        cbStaff = findViewById(R.id.cbStaff)
+        cbITStudent = findViewById(R.id.cbITStudent)
+        cbBanned = findViewById(R.id.cbBanned)
+        btnCheck = findViewById(R.id.btnCheck)
+        tvResult = findViewById(R.id.tvResult)
+
+
+
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
