@@ -20,67 +20,68 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.738" />
 
-        <EditText
-            android:id="@+id/editName"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginEnd="116dp"
-            android:ems="10"
-            android:inputType="text"
-            android:text="@string/enter_your_name"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.078" />
+    <EditText
+        android:id="@+id/editName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="124dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="@string/enter_your_name"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.091" />
 
-        <EditText
-            android:id="@+id/editAge"
-            android:layout_width="262dp"
-            android:layout_height="42dp"
-            android:ems="10"
-            android:inputType="text"
-            android:hint="@string/enter_your_agw"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.489"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.169" />
+    <EditText
+        android:id="@+id/editAge"
+        android:layout_width="262dp"
+        android:layout_height="42dp"
+        android:ems="10"
+        android:hint="@string/enter_your_age"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.523"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.184" />
 
-        <CheckBox
-            android:id="@+id/cbStaff"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/staff_member"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.415"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.27" />
+    <CheckBox
+        android:id="@+id/cbStaff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/staff_member"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.401"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.349" />
 
-        <CheckBox
-            android:id="@+id/cbITStudent"
-            android:layout_width="179dp"
-            android:layout_height="48dp"
-            android:layout_marginBottom="416dp"
-            android:text="@string/it_student"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.533"
-            app:layout_constraintStart_toStartOf="parent" />
+    <CheckBox
+        android:id="@+id/cbITStudent"
+        android:layout_width="179dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="396dp"
+        android:text="@string/it_student"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
-        <CheckBox
-            android:id="@+id/cbBanned"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/banned_from_store"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+    <CheckBox
+        android:id="@+id/cbBanned"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/banned_from_store"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.447"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
 
-        <Button
+    <Button
             android:id="@+id/btnCheck"
             android:layout_width="179dp"
             android:layout_height="50dp"
